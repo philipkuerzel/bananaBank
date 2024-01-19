@@ -1,7 +1,7 @@
 const Konto = ({einzahlen, auszahlen, kontostand}) => {
     return ( 
         <>
-        <h1 id="title">Banana Bank</h1>
+        <h1 id="title">Banco Banana</h1>
         <div className="konto">
             <h2>Mein Girokonto</h2>
             <div className="Kontostand">{kontostand.toFixed(2)}</div>
